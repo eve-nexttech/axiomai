@@ -1,0 +1,136 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Axiom AI Automation Agency">
+  <main class="relative z-10 mx-auto max-w-[1180px] px-5 pt-6 pb-[72px] max-[540px]:px-3.5 max-[540px]:pt-4 max-[540px]:pb-[60px]">
+    <div class="hero-glow" aria-hidden="true"></div>
+
+    <header class="sticky top-3 z-20 flex items-center justify-between gap-4 rounded-2xl border border-white/10 bg-[#090c0bb0] px-3.5 py-3 backdrop-blur-md max-[540px]:px-2.5 max-[540px]:py-2.5">
+      <div class="inline-flex items-center gap-2.5 text-[0.88rem] font-bold tracking-[0.15em]">
+        <span class="logo-mark"><span></span></span>
+        <span>AXIOM</span>
+      </div>
+
+      <nav>
+        <ul class="flex list-none gap-6 p-0 text-[0.9rem] text-[#b9c2bc] max-[920px]:hidden">
+          <li><a class="transition-colors hover:text-[#e7efe9]" href="#process">Process</a></li>
+          <li><a class="transition-colors hover:text-[#e7efe9]" href="#services">Services</a></li>
+          <li><a class="transition-colors hover:text-[#e7efe9]" href="#workflow">Workflow</a></li>
+          <li><a class="transition-colors hover:text-[#e7efe9]" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a
+        class="cta-pulse whitespace-nowrap rounded-full border border-[#00c853b3] bg-white/[0.02] px-4 py-2.5 text-[0.88rem] text-white no-underline transition-all hover:-translate-y-px hover:shadow-[0_0_20px_3px_rgba(0,200,83,0.35)] max-[540px]:px-3 max-[540px]:py-[9px] max-[540px]:text-[0.82rem]"
+        href="#contact"
+      >
+        Book a Demo
+      </a>
+    </header>
+
+    <section class="mx-auto mt-[90px] mb-[72px] max-w-[900px] text-center max-[920px]:mt-[72px]" id="workflow">
+      <h1 class="m-0 text-[clamp(2.1rem,6.5vw,4.7rem)] leading-[1.02] font-bold tracking-[-0.03em]">
+        Driving Growth with
+        <span class="text-[#9fffc4] [text-shadow:0_0_10px_rgba(0,200,83,0.8),0_0_28px_rgba(0,200,83,0.45)]">AI.</span>
+      </h1>
+      <p class="mx-auto mt-[22px] max-w-[720px] text-[clamp(0.98rem,1.8vw,1.18rem)] leading-[1.65] text-[#b9c2bc] max-[540px]:text-[0.95rem]">
+        We craft workflow automations and bespoke AI solutions for forward-thinking companies.
+        Keep your business running when you are not.
+      </p>
+    </section>
+
+    <section class="mt-14">
+      <h2 class="m-0 max-w-[940px] text-[clamp(1.4rem,3.8vw,3.05rem)] leading-[1.18] tracking-[-0.02em]">
+        We&apos;re a modern AI Automation Agency
+        We turn workflows <span class="dot" aria-hidden="true"></span> into self-driving business units.
+      </h2>
+    </section>
+
+    <section class="mt-14" id="process">
+      <h2 class="mb-6 text-[clamp(1.6rem,3vw,2.3rem)] leading-[1.15] tracking-[-0.02em]">Our Process</h2>
+      <div class="grid grid-cols-2 gap-[18px] max-[920px]:grid-cols-1">
+        <article class="glass-card min-h-[228px] overflow-hidden rounded-[18px] p-[18px] max-[540px]:min-h-[214px] max-[540px]:p-[14px]">
+          <div class="mock" aria-hidden="true">
+            <div class="line w-[64%]"></div>
+            <div class="line w-[36%]"></div>
+            <div class="line line-green w-[52%]"></div>
+            <div class="line w-[80%]"></div>
+          </div>
+          <h3 class="m-0 text-[1.22rem] font-semibold tracking-[-0.015em]">01. Subscribe</h3>
+          <p class="mt-2 mb-0 text-[0.94rem] leading-[1.5] text-[#b9c2bc]">Choose your automation plan. Pause or cancel anytime.</p>
+        </article>
+
+        <article class="glass-card min-h-[228px] overflow-hidden rounded-[18px] p-[18px] max-[540px]:min-h-[214px] max-[540px]:p-[14px]">
+          <div class="mock" aria-hidden="true">
+            <div class="line w-[58%]"></div>
+            <div class="line w-[64%]"></div>
+            <div class="mt-auto flex gap-2">
+              <span class="icon-chip">G</span>
+              <span class="icon-chip">S</span>
+              <span class="icon-chip">N</span>
+            </div>
+          </div>
+          <h3 class="m-0 text-[1.22rem] font-semibold tracking-[-0.015em]">02. Request</h3>
+          <p class="mt-2 mb-0 text-[0.94rem] leading-[1.5] text-[#b9c2bc]">Tell us what workflows you need automated. Reply, Call, or Message.</p>
+        </article>
+
+        <article class="glass-card min-h-[228px] overflow-hidden rounded-[18px] p-[18px] max-[540px]:min-h-[214px] max-[540px]:p-[14px]">
+          <div class="mock" aria-hidden="true">
+            <div class="line w-[62%]"></div>
+            <div class="line line-green w-[74%]"></div>
+            <div class="line w-[48%]"></div>
+            <div class="mt-auto flex gap-2">
+              <span class="icon-chip">📅</span>
+              <span class="icon-chip">📞</span>
+            </div>
+          </div>
+          <h3 class="m-0 text-[1.22rem] font-semibold tracking-[-0.015em]">03. Connect</h3>
+          <p class="mt-2 mb-0 text-[0.94rem] leading-[1.5] text-[#b9c2bc]">
+            Customers get replied to, pick up calls, and sync seamlessly to your calendar.
+          </p>
+        </article>
+
+        <article class="glass-card min-h-[228px] overflow-hidden rounded-[18px] p-[18px] max-[540px]:min-h-[214px] max-[540px]:p-[14px]">
+          <div class="mock" aria-hidden="true">
+            <div class="line w-[36%]"></div>
+            <div class="line line-green w-[85%]"></div>
+            <div class="line w-[63%]"></div>
+            <div class="line w-[53%]"></div>
+          </div>
+          <h3 class="m-0 text-[1.22rem] font-semibold tracking-[-0.015em]">04. Deploy</h3>
+          <p class="mt-2 mb-0 text-[0.94rem] leading-[1.5] text-[#b9c2bc]">We build, test, and activate your automations. Your business runs 24/7.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="mt-14" id="services">
+      <h2 class="mb-6 text-[clamp(1.6rem,3vw,2.3rem)] leading-[1.15] tracking-[-0.02em]">Our Services</h2>
+      <div class="grid gap-3.5">
+        <article class="glass-panel grid grid-cols-[42px_1fr] items-center gap-3.5 rounded-[14px] p-4">
+          <div class="service-icon">💬</div>
+          <div>
+            <h3 class="m-0 text-[1.03rem] font-semibold">Instant Email &amp; DM Replies</h3>
+            <p class="mt-1 mb-0 text-[0.92rem] text-[#b9c2bc]">Automate responses to repetitive inquiries.</p>
+          </div>
+        </article>
+
+        <article class="glass-panel grid grid-cols-[42px_1fr] items-center gap-3.5 rounded-[14px] p-4">
+          <div class="service-icon">📞</div>
+          <div>
+            <h3 class="m-0 text-[1.03rem] font-semibold">Automated Call Routing</h3>
+            <p class="mt-1 mb-0 text-[0.92rem] text-[#b9c2bc]">Voice AI to filter and direct incoming calls.</p>
+          </div>
+        </article>
+
+        <article class="glass-panel grid grid-cols-[42px_1fr] items-center gap-3.5 rounded-[14px] p-4" id="contact">
+          <div class="service-icon">📅</div>
+          <div>
+            <h3 class="m-0 text-[1.03rem] font-semibold">Seamless Calendar Syncing</h3>
+            <p class="mt-1 mb-0 text-[0.92rem] text-[#b9c2bc]">AI manages appointment bookings, connecting to your calendar.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+</BaseLayout>
